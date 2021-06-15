@@ -1,4 +1,4 @@
-# Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2018 The LineageOS Project >> Android Open Source Project!
 # SPDX-License-Identifier: Apache-2.0
 
 # Inherit from those products. Most specific first.
@@ -12,7 +12,7 @@ $(call inherit-product, device/samsung/a40/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := a40
-PRODUCT_NAME := full_a40
+PRODUCT_NAME := aosp_a40
 PRODUCT_MODEL := a40
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
