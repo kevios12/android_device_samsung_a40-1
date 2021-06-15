@@ -594,4 +594,12 @@
         <item>419</item>
         <item>420</item>
     </integer-array>
+    <!-- Smart charge sysfs node and value for suspend/resume charging-->
+    <bool name="config_deviceSupportSmartCharging">true</bool>
+    <bool name="config_smartChargingAvailable">true</bool>
+    <integer name="config_smartChargingBatteryLevel">95</integer>
+    <integer name="config_smartChargingBatteryResumeLevel">30</integer>
+    <string name="config_smartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/batt_slate_mode</string>
+    <string name="config_smartChargingSuspendValue" translatable="false">1</string>
+    <string name="config_smartChargingResumeValue" translatable="false">0</string>
 </resources>
