@@ -4,3 +4,6 @@ $(call inherit-product, device/samsung/a40/full_a40.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 PRODUCT_NAME := lineage_a40
+
+# Blur
+TARGET_USES_BLUR := true
