@@ -13,8 +13,8 @@ $(call inherit-product, device/samsung/a40/device.mk)
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := a40
 PRODUCT_NAME := full_a40
-PRODUCT_MODEL := Samsung Galaxy A40
-PRODUCT_BRAND := samsung
+PRODUCT_MODEL := Galaxy A40
+PRODUCT_BRAND := Samsung
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
