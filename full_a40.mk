@@ -14,7 +14,7 @@ $(call inherit-product, device/samsung/a40/device.mk)
 PRODUCT_DEVICE := a40
 PRODUCT_NAME := full_a40
 PRODUCT_MODEL := Galaxy A40
-PRODUCT_BRAND := samsung
+PRODUCT_BRAND := Samsung
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
