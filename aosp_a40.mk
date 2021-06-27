@@ -10,3 +10,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 # Blur
 TARGET_USES_BLUR := true
+
+# GAPPS if vendor/gms or vendor/gapps exists
+TARGET_GAPPS_ARCH := arm64
+WITH_GAPPS := true
