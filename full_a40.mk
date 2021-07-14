@@ -20,6 +20,7 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ3A.210705.001/7380771:user:user/release-keys"
+BUILD_DESCRIPTION := redfin-user 11 RQ3A.210705.001 7380771 release-keys
 
 PRODUCT_PROPERTY_OVERRIDES += \
    ro.build.fingerprint=$(BUILD_FINGERPRINT)
